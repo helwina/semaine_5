@@ -18,9 +18,12 @@ article, header, .header-title {
 .container {
     margin: 15px auto;
     padding: 10px;
-    width: 960px;
+    max-width: 960px;
 }
 
+header, .container {
+    width:100%;
+}
 /*-----------------------------*\
             header
 \*-----------------------------*/
@@ -30,7 +33,6 @@ h1 {
 
 header {
     height: 153px;
-    width: 100%;
 }
 
 .header-title {
@@ -40,6 +42,8 @@ header {
 
 .image {
     float: left;
+  
+    margin: 0 10px;
 }
 
 /*-----------------------------*\
