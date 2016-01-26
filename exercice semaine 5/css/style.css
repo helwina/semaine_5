@@ -47,6 +47,10 @@ h1 {
     background: url('../images/ignasi_pattern_s.png') center fixed;
 }
 
+header {
+  margin-bottom: -15px;
+}
+
 .header-title {
     margin-left: 20%;
     margin-top: 40px;
@@ -70,7 +74,7 @@ li {
 }
 
 article {
-    width: 30%;
+    width: 33%;
 
     vertical-align: top; 
 }
