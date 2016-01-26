@@ -1,6 +1,7 @@
 /*-----------------------------*\
             base
 \*-----------------------------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,20 +25,31 @@ article, header, .header-title {
 header, .container {
     width:100%;
 }
+body {
+    background: url("../images/cheap_diagonal_fabric.png") center fixed;
+}
+
+.footer-container, .header-container, .main-container {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 /*-----------------------------*\
             header
 \*-----------------------------*/
+
 h1 {
     text-transform: uppercase;
 }
 
-header {
+.header-container {
     height: 153px;
+    background: url('../images/ignasi_pattern_s.png') center fixed;
 }
 
 .header-title {
     margin-left: 20%;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 .image {
@@ -63,6 +75,28 @@ article {
     vertical-align: top; 
 }
 
+.main-container {
+    background: url('../images/paisley.png') center fixed;
+}
 /*-----------------------------*\
              footer
 \*-----------------------------*/
+
+footer {
+    position: relative;
+}
+
+.footer-map, .footer-contact {
+    display: inline-block;
+}
+
+.footer-contact {
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    top: 0;
+}
+
+.footer-container {
+    background: url('../images/wov.png') center fixed;
+}
